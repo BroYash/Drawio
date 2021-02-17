@@ -1,0 +1,25 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+}
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid rgba(126, 255, 158, 0.3);
+}
+
+.sidebar__headerRight > .roundNumberText {
+  display: flex;
+  align-items: center;
+  color: #7eff9e;
+  font-size: 27px;
+  padding-top: 5px;
+}
+
+.sidebar__header > .MuiSvgIcon-root {
+  color: #7eff9e;
+  font-size: 50px !important;
+}

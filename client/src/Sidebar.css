@@ -6,20 +6,27 @@
 
 .sidebar__header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 20px;
-  border-right: 1px solid rgba(126, 255, 158, 0.3);
+  border-bottom: 1px solid rgba(126, 255, 158, 0.1);
+  max-height: 5vh !important;
+  min-height: 5vh !important;
 }
 
 .sidebar__headerRight > .roundNumberText {
   display: flex;
   align-items: center;
   color: #7eff9e;
-  font-size: 27px;
-  padding-top: 5px;
+  font-size: 20px;
+  padding-right: 20px;
 }
 
 .sidebar__header > .MuiSvgIcon-root {
   color: #7eff9e;
-  font-size: 50px !important;
+  font-size: 40px;
+}
+
+.sidebar__players {
+  flex: 1;
 }

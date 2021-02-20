@@ -1,0 +1,27 @@
+.canvas {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+}
+
+.canvas__header {
+  padding: 20px;
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(126, 255, 158, 0.1);
+  max-height: 5vh !important;
+  min-height: 5vh !important;
+}
+
+.canvas__header > .word {
+  color: #7eff9e;
+  font-size: 20px;
+}
+
+.canvas__body {
+  background-color: #242124;
+  flex: 0.994;
+  position: relative;
+}

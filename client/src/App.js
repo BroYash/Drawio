@@ -1,15 +1,15 @@
-import './App.css';
-import Sidebar from './Sidebar';
-
+import "./App.css";
+import Canvas from "./Canvas";
+import Sidebar from "./Sidebar";
+import Chat from "./Chat";
 function App() {
   return (
-    // BEM naming convention
     <div className="app">
-      <h1 className="title">Drawio</h1>
+      <h1 className="title">Pictio</h1>
       <div className="app__body">
         <Sidebar></Sidebar>
-        {/*Drawing Panel*/}
-        {/*Chat*/}
+        <Canvas></Canvas>
+        <Chat></Chat>
       </div>
     </div>
   );

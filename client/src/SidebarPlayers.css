@@ -1,0 +1,25 @@
+.sidebarPlayers__info {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid rgba(126, 255, 158, 0.1);
+}
+
+.sidebarPlayers__info > .ranking {
+  display: flex;
+  padding-left: 1vw;
+  color: #7eff9e;
+  justify-content: left;
+}
+
+.sidebarPlayers__infoRight {
+  color: #7eff9e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 3vw;
+}
+
+.sidebarPlayers__infoRight > .name {
+  font-weight: bold;
+}

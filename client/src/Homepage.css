@@ -1,0 +1,23 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  background-color: #242124;
+  height: 100vh;
+}
+
+.homepage__title {
+  display: flex;
+  color: #7eff9e;
+  height: 15vh;
+  place-items: center;
+  justify-content: center;
+}
+
+.homepage__body {
+  display: flex;
+  flex: 1;
+}
+
+.homepage__bodyContainer {
+  flex: 1;
+}

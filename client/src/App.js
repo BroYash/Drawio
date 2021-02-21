@@ -1,18 +1,8 @@
 import "./App.css";
-import Canvas from "./Canvas";
-import Sidebar from "./Sidebar";
-import Chat from "./Chat";
+import Nav from "./Nav";
+
 function App() {
-  return (
-    <div className="app">
-      <h1 className="title">Pictio</h1>
-      <div className="app__body">
-        <Sidebar></Sidebar>
-        <Canvas></Canvas>
-        <Chat></Chat>
-      </div>
-    </div>
-  );
+  return <Nav></Nav>;
 }
 
 export default App;

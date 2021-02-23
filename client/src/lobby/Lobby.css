@@ -1,0 +1,19 @@
+.lobby {
+  display: flex;
+  flex-direction: column;
+  background-color: #242124;
+  height: 100vh;
+}
+
+.lobby__title {
+  display: flex;
+  color: #7eff9e;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 50px;
+}
+
+.lobby__body {
+  display: flex;
+  flex: 1;
+}

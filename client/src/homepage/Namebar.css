@@ -1,0 +1,50 @@
+.namebar__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7eff9e;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 25vw;
+  margin: 0 auto;
+  margin-top: 80px;
+  max-width: 300px;
+}
+
+.namebar__input > input {
+  flex: 1;
+  font-size: large;
+  border: none;
+  background-color: #242124;
+  color: white;
+}
+
+.namebar__input > input:focus {
+  outline-width: 0;
+  color: white;
+}
+
+.namebar__input > button {
+  display: none;
+}
+
+.namebar__button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.namebar__button button {
+  width: 25vw;
+  max-width: 300px;
+  border: 1px solid #7eff9e;
+  border-radius: 10px;
+  color: #7eff9e;
+  font-weight: bold;
+  font-size: large;
+  background-color: #436b4d;
+}
+
+.namebar__button button:hover {
+  box-shadow: 0px 1px 1px #7eff9e;
+}

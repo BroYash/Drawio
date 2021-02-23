@@ -1,14 +1,22 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Homepage from "./Homepage";
-import Game from "./Game";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import Homepage from "./homepage/Homepage";
+import Game from "./game/Game";
+import Lobby from "./lobby/Lobby";
 
 function Nav() {
   return (
     <Router>
       <Switch>
-        <Route path="/room/:id" exact component={Game}></Route>
+        <Route path="/room" exact component={Game}></Route>
+        <Route path="/lobby" exact component={Lobby}></Route>
         <Route path="/" exact component={Homepage}></Route>
+        <Route render={() => <Redirect to={{ pathname: "/" }} />} />
       </Switch>
     </Router>
   );
